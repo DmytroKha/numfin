@@ -2,9 +2,9 @@ package financialdata_test
 
 import (
 	"errors"
+	"github.com/DmytroKha/numfin/internal/financialdata"
+	"github.com/DmytroKha/numfin/internal/financialdata/mocks"
 	"github.com/stretchr/testify/assert"
-	"lib_numfin_gpt/internal/financialdata"
-	"lib_numfin_gpt/internal/financialdata/mocks"
 	"testing"
 )
 

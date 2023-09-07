@@ -4,8 +4,8 @@ import (
 	"errors"
 	"testing"
 
+	"github.com/DmytroKha/numfin/internal/openai/mocks"
 	"github.com/stretchr/testify/assert"
-	"lib_numfin_gpt/internal/openai/mocks"
 )
 
 func TestGenerateResponse_Success(t *testing.T) {

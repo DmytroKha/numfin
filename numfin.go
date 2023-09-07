@@ -1,9 +1,9 @@
-package lib_numfin_gpt
+package numfin
 
 import (
 	"fmt"
-	"lib_numfin_gpt/internal/financialdata"
-	"lib_numfin_gpt/internal/openai"
+	"github.com/DmytroKha/numfin/internal/financialdata"
+	"github.com/DmytroKha/numfin/internal/openai"
 )
 
 const (

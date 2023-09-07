@@ -3,7 +3,7 @@
 package mocks
 
 import (
-	financialdata "lib_numfin_gpt/internal/financialdata"
+	financialdata "github.com/DmytroKha/numfin/internal/financialdata"
 
 	mock "github.com/stretchr/testify/mock"
 )

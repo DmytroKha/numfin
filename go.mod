@@ -1,4 +1,4 @@
-module lib_numfin_gpt
+module github.com/DmytroKha/numfin
 
 go 1.18
 
