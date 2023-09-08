@@ -20,8 +20,7 @@ func TestGenerateResponse_Success(t *testing.T) {
 	mockService.On("GenerateResponse", model, prompt).Return(expectedResponse, nil)
 
 	// Use the mock service in your code
-	service := mockService
-	response, err := service.GenerateResponse(model, prompt)
+	response, err := mockService.GenerateResponse(model, prompt)
 
 	// Assertions
 	assert.NoError(t, err)

@@ -37,8 +37,7 @@ func TestFetchCompanyData_Error(t *testing.T) {
 	mockService.On("FetchCompanyData", "INVALID").Return(nil, expectedError)
 
 	// Use the mock service in your code
-	service := mockService //financialdata.NewService(mockService)
-	data, err := service.FetchCompanyData("INVALID")
+	data, err := mockService.FetchCompanyData("INVALID")
 
 	// Assertions
 	assert.Error(t, err)

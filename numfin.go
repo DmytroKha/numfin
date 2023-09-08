@@ -9,7 +9,7 @@ import (
 const (
 	apiUrl    = "https://api.numfin.com/api/v2/financial-values/code?code=%s"
 	openaiUrl = "https://api.openai.com/v1/chat/completions"
-	apiKey    = "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" //"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" //
+	apiKey    = "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"
 	modelGPT  = "gpt-3.5-turbo"
 	prompt    = "Add 4 sentences to this text giving analytics"
 )
